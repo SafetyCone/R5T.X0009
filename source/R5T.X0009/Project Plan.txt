@@ -1,3 +1,11 @@
-R5T.X0009 - Extensions to Roslyn syntax elements built on R5T.F0012 functionality.
+R5T.X0009 - Extensions to Roslyn syntax elements that require simple, initial, generation.
 
-GOALS:
+The primary purpose is to allow direct, self-annotation of nodes.
+
+
+Allowed Dependencies:
+
+* R5T.F0004 - Generation, initial, simple, functionality for Roslyn syntax elements.
+* R5T.T0129 - NameAlias and other related basic Roslyn syntax types.
+* R5T.T0138 - Custom Roslyn C# syntax node types.
+* R5T.X0005 - Extensions for Roslyn syntax functionality (non-generation).
